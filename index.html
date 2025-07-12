@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -50,7 +49,26 @@
       text-align: center;
       padding: 30px 20px;
     }
-    a { color: #60a5fa; text-decoration: none; }
+    .actions {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .actions a {
+      display: inline-block;
+      background-color: #10b981;
+      color: white;
+      font-size: 18px;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 10px;
+    }
+    .actions a.calendly {
+      background-color: #2563eb;
+    }
+    a:hover {
+      opacity: 0.9;
+    }
   </style>
 </head>
 <body>
@@ -89,30 +107,13 @@
     <div class="project">- دعم مسرعات أعمال تقنية بالتحليل والتوصيات</div>
   </section>
 
-  <section>
-    <h2>تواصل معنا</h2>
-    <p>📧 <a href="mailto:info@alayidi.tech">info@alayidi.tech</a></p>
-    <p>📱 05xxxxxxxx</p>
-    <p>🔗 <a href="https://linkedin.com/in/alayidi">linkedin.com/in/alayidi</a></p>
-    <p>🌐 الموقع الرسمي: قريبًا بإذن الله</p>
+  <section class="actions">
+    <a href="https://wa.me/9665XXXXXXXX?text=مرحبًا، أود حجز جلسة استشارية تقنية" target="_blank">📱 احجز عبر واتساب</a>
+    <a href="https://calendly.com/a-alaiyedi/30min" class="calendly" target="_blank">📅 احجز عبر Calendly</a>
   </section>
 
   <footer>
     <p>© 2025 عبدالرحمن العييدي للاستشارات التقنية - جميع الحقوق محفوظة</p>
   </footer>
-
-  <section style="text-align:center; margin-bottom: 40px;">
-    <a href="https://wa.me/9665XXXXXXXX?text=مرحبًا، أود حجز جلسة استشارية تقنية" target="_blank" style="
-      display: inline-block;
-      background-color: #10b981;
-      color: white;
-      font-size: 20px;
-      padding: 15px 30px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin-top: 20px;
-    ">📅 احجز استشارتك الآن عبر واتساب</a>
-  </section>
-
 </body>
 </html>
